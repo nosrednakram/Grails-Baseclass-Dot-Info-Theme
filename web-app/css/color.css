@@ -1,0 +1,77 @@
+h1, h2, h3, h4, h5, h6, nav li {
+color: #2B627F; 
+background-color: #E4CC8C; 
+}
+
+.error {
+color: #E4CC8C;
+background-color: #822C14;
+}
+
+nav, .nav {
+border-bottom: thick solid #2B627F;
+}
+
+nav li, .nav li {
+border-top: thick solid #2B627F;
+}
+
+nav li:nth-child(2n+1), .nav li:nth-child(2n+1) {
+border-top: thick solid #0E3B53;
+}
+
+#userAccount, #search {
+border-top: thick solid #0E3B53;
+border-bottom: thick solid #2B627F;
+}
+
+/* If we want a gradient */
+
+#mainBanner > h1, fieldset, table {
+color: #2B627F;
+background: -webkit-gradient(linear, left top, left bottom, color-stop(80%, #E4CC8C), color-stop(100%, #7AA7BF)); /* Safari 4+, Chrome 2+ */
+background: -moz-linear-gradient(#E4CC8C, #7AA7BF); /* FF 3.6+ */
+background: -ms-linear-gradient(#E4CC8C, #7AA7BF); /* IE10 */
+background: -webkit-linear-gradient(#E4CC8C, #7AA7BF); /* Safari 5.1+, Chrome 10+ */
+background: -o-linear-gradient(#AE4CC8C, #7AA7BF); /* Opera 11.10 */
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#E4CC8C', endColorstr='#7AA7BF'); /* IE6 & IE7 */
+-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#E4CC8C', endColorstr='#7AA7BF')"; /* IE8+ */
+background: linear-gradient(#E4CC8C, #7AA7BF); /* the standard */
+box-shadow: 4px 4px 8px #0E3B53;
+}
+
+#breadcrumbs {
+border-bottom: thin solid #2B627F;
+border-top: thin solid #0E3B53;
+}
+
+blockquote {
+border-top: medium solid #2B627F;
+border-bottom: medium solid #0E3B53;
+}
+
+body {
+background: #2B627F;
+}
+
+.wrapper {
+background: #E4CC8C;
+}
+
+th {
+border: solid #0E3B53;
+}
+
+td {
+border: solid #2B627F;
+}
+
+.fieldcontain label,
+.fieldcontain .property-label {
+color: #2B627F;
+}
+
+pre {
+background-color: #FFF;
+color: #000;
+}

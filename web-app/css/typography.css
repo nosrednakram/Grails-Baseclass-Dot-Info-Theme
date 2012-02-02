@@ -1,0 +1,265 @@
+/* Headers */
+
+h1 {
+font-size:220%
+}
+
+h2 {
+font-size:180%
+}
+
+h3, h4, h5, h6 {
+font-size:140%
+}
+
+/* Large Groups */
+
+h1, h2, h3, h4, h5, h6, nav li, .nav li {
+font-family:Georgia,serif;
+font-variant: small-caps; text-transform: none; font-weight: 100; margin-bottom: 0;
+}
+
+p:first-letter,
+legend:first-letter,
+label:first-letter {
+font-family:Georgia,serif;
+font-size: 1.2em;
+font-weight: bold;
+text-transform:uppercase;
+letter-spacing:2px;
+}
+
+/* Sepcial Case */
+
+.error {
+font-weight: bold;
+text-align: center;
+}
+
+#mainBanner > h1 {
+text-align: center;
+font-weight: bolder;
+margin:1em;
+}
+
+#breadcrumbs {
+font-size: xx-small;
+width: 98%;
+font-variant: small-caps;
+}
+
+#breadcrumbs a {
+font-variant: small-caps;
+text-decoration: none;
+}
+
+#userAccount {
+margin-top: 2em;
+}
+
+#search input {
+padding: .2em;
+margin: .2em;
+}
+
+/* Classes for floating and clearing */
+
+.fleft {
+float: left;
+}
+
+.fright {
+float: right;
+}
+
+.cboth {
+clear: both;
+}
+
+.cleft {
+clear: left;
+}
+
+.cright {
+clear: right;
+}
+
+.acenter {
+text-align: center;
+}
+
+.aright {
+text-align: right;
+}
+
+.aleft {
+text-align: left;
+}
+
+/* Footer */
+
+footer {
+text-align: center;
+font-size: xx-small;
+margin: 1em;
+}
+
+/* Navigation */
+nav {
+margin-top: 2em;
+}
+
+nav ul , .nav ul {
+padding: 0;
+margin: 0;
+}
+
+nav li, .nav li {
+font-size: 100%;
+display: block;
+margin: 0;
+padding: .25em .1em .25em .5em;
+text-align: center;
+}
+
+/* Paragraphs */
+p {
+font-family: "Helvetica Neue", "Lucida Grande", Helvetica, Arial, Verdana, sans-serif;
+font-size: .8em;
+margin-top: .5em;
+}
+
+/* Blockquotes */
+
+blockquote {
+margin: .5em 2em;
+}
+
+blockquote:before  {
+content: "\201C";
+font-weight: bolder;
+font-size: 140%;
+}
+
+blockquote:after  {
+content: "\201D";
+font-weight: bolder;
+font-size: 140%;
+}
+
+/* Fixed Width */
+
+code, pre {
+font-family: Lucidatypewriter, "Andale Mono", "Courier New", Fixed, monospace;
+letter-spacing:0.02em;
+line-height: 120%;
+font-size: 80%;
+margin: 1em;
+}
+
+* html pre {
+overflow: hidden;
+width: 97%;
+}
+
+/* forms */
+
+input {
+width: 98%;
+}
+
+label, button, legend {
+letter-spacing:0.1em;
+font-family: "Adobe Caslon Pro", "Hoefler Text", Georgia, Garamond, Times, serif;
+text-transform: lowercase;
+font-variant: small-caps;
+line-height: 140%;
+margin: .25em;
+}
+
+textarea, input, select, fieldset {
+margin: .5em;
+width: 98%;
+}
+
+textarea {
+margin: 1em;
+height: 6em;
+}
+
+fieldset p,
+fieldset label,
+fieldset input  {
+display: inline-block;
+text-align: center;
+}
+
+select {
+width: 98%;
+margin: 1em;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+margin: .25em;
+padding: .25em;
+}
+
+/* Table */
+
+table {
+font-size: 80%;
+font-family: "Adobe Caslon Pro", "Hoefler Text", Georgia, Garamond, Times, serif;
+font-weight: 100; 
+}
+
+th {
+font-variant: small-caps; 
+}
+
+th, td {
+margin: .5em;
+padding: .1em;
+}
+
+ul, ol {
+margin: 1em .1em 1em 3em;
+}
+
+#search p {
+margin: .1em;
+}
+
+pre {
+margin: .1em;
+padding: .1em;
+}
+
+
+/** For Grails layout of list data **/
+
+.property-list .fieldcontain {
+        list-style: none;
+        overflow: hidden;
+        zoom: 1;
+}
+
+.fieldcontain {
+        margin-top: 1em;
+}
+
+.fieldcontain label,
+.fieldcontain .property-label {
+        text-align: right;
+        width: 25%;
+}
+
+.fieldcontain .property-label {
+        float: left;
+}
+
+.fieldcontain .property-value {
+        display: block;
+        margin-left: 27%;
+}
+
