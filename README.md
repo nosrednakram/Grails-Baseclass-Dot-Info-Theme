@@ -4,7 +4,7 @@ This documentation is available at http://host/app/theme in a themed example pag
 
 This is a simple theme system that installs a new layout and scaffolding so when you generate new views they will use the new theme. It uses a 12 column grid system based on the 960 Grid System. I included modified templates from the Adaptive CSS system so you can set a width. Although the adapt.js script is included this system does not use it. You can pick any of the provided widths and change from 960 by replacing the link to 960.min.css with the desired width. The layout is named root and should be accessed by setting the meta layout content to root.
 
-   <meta name="layout" content="root" />
+   <lt;meta name="layout" content="root" />gt;
    
 ## Common Page Sections
 
@@ -17,7 +17,7 @@ It uses a few common elements in grails-app/views/common. This is were you set d
 
 These common sub sections are included in the root or other layouts you may wish to use with a render template tag.
 
-   <g:render template="/common/mainnav" />
+   <lt;g:render template="/common/mainnav" />gt;
    
 ## Page Specific Sections
 
@@ -31,11 +31,11 @@ This theme differs from the default in that it uses a root instead of a main lay
 
 These sections should have wrapping elements contained in the layout preferably. To include than element you use a pageProperty tag.
 
-   <geProperty name="page.main" />
+   <lt;geProperty name="page.main" />gt;
    
 In you gsp pages you specify the sections with a tag. To specify the tag for main which was used in the previous example you would wrap the page section in content tags with a appropriate tag label.
 
-   <content tag="main">
+   <lt;content tag="main">gt;
       Tag specific related content .....
-   <content>
+   <lt;content>gt;
 
