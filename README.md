@@ -6,7 +6,7 @@ This is a simple theme system that installs a new layout and scaffolding so when
 
    <meta name="layout" content="root" />
    
-Common Page Sections
+## Common Page Sections
 
 It uses a few common elements in grails-app/views/common. This is were you set define the common static content used on more than one page.
 
@@ -19,7 +19,7 @@ These common sub sections are included in the root or other layouts you may wish
 
    <g:render template="/common/mainnav" />
    
-Page Specific Sections
+## Page Specific Sections
 
 This theme differs from the default in that it uses a root instead of a main layout, with more sections by default. The main advantage of creating these different section is that it allow the flexibility to move section of the page to different locations easily when accommodating different layout. The sections that all pages should have.
 
