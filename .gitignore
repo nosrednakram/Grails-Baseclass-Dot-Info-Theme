@@ -1,0 +1,12 @@
+targe
+web-app/plugins
+wep-app/WEB-INF/classes
+plugins/core
+.classpath
+.project
+.settings
+/*.launch
+/*.tmproj
+/stacktrace.log
+/test/reports
+*.war
