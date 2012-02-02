@@ -4,7 +4,7 @@ This documentation is available at http://host/app/theme in a themed example pag
 
 This is a simple theme system that installs a new layout and scaffolding so when you generate new views they will use the new theme. It uses a 12 column grid system based on the 960 Grid System. I included modified templates from the Adaptive CSS system so you can set a width. Although the adapt.js script is included this system does not use it. You can pick any of the provided widths and change from 960 by replacing the link to 960.min.css with the desired width. The layout is named root and should be accessed by setting the meta layout content to root.
 
-    <meta name="layout" content="root" />
+    &lt;meta name="layout" content="root" /&gt;
    
 ## Common Page Sections
 
