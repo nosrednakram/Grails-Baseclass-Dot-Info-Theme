@@ -36,7 +36,7 @@ This theme differs from the default in that it uses a root instead of a main lay
 These sections should have wrapping elements contained in the layout preferably. To include than element you use a pageProperty tag.
 
 ~~~~
-    <lt;geProperty name="page.main" />
+    <g:Property name="page.main" />
 ~~~~
    
 In you gsp pages you specify the sections with a tag. To specify the tag for main which was used in the previous example you would wrap the page section in content tags with a appropriate tag label.
@@ -44,6 +44,6 @@ In you gsp pages you specify the sections with a tag. To specify the tag for mai
 ~~~~
     <content tag="main">
         Tag specific related content .....
-    <<content>
+    <content>
 ~~~~
 
