@@ -3,8 +3,8 @@
   <head>
   <meta charset="utf-8" />
   <title><g:layoutTitle default="Grails" /></title>
-  <link rel="stylesheet" href="${resource(dir:'css',file:'main.min.css')}" />
-  <link rel="stylesheet" href="${resource(dir:'css',file:'960.min.css')}" />
+  <link rel="stylesheet" href="${resource(dir:'css/baseclass',file:'main.min.css')}" />
+  <link rel="stylesheet" href="${resource(dir:'css/baseclass',file:'960.min.css')}" />
   <!--[if !IE]>-->
   <style type="text/css">
   body {

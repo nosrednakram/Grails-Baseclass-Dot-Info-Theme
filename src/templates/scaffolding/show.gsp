@@ -1,7 +1,7 @@
 <% import grails.persistence.Event %>
 <%=packageName%>
 
-<meta name="layout" content="main">
+<meta name="layout" content="baseclass">
 <g:set var="entityName" value="\${message(code: '${domainClass.propertyName}.label', default: '${className}')}" />
 <title><g:message code="default.show.label" args="[entityName]" /></title>
 

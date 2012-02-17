@@ -15,18 +15,10 @@ ant.delete(file:  "${basedir}/src/templates/scaffolding/create.gsp")
 ant.delete(file:  "${basedir}/src/templates/scaffolding/edit.gsp")
 ant.delete(file:  "${basedir}/src/templates/scaffolding/list.gsp")
 ant.delete(file:  "${basedir}/src/templates/scaffolding/show.gsp")
-ant.delete(dir:   "${basedir}/src/templates/scaffolding")
-//
-// Common Blocks
-//
-ant.delete(file:  "${basedir}/grails-app/views/common/_footer.gsp")
-ant.delete(file:  "${basedir}/grails-app/views/common/_search.gsp")
-ant.delete(file:  "${basedir}/grails-app/views/common/_useroptions.gsp")
-ant.delete(dir:   "${basedir}/grails-app/views/common")
 //
 // Layouts
 //
-ant.delete(file:  "${basedir}/grails-app/views/layouts/root.gsp")
+ant.delete(file:  "${basedir}/grails-app/views/layouts/baseclass.gsp")
 //
 // Theme Page
 //
@@ -35,4 +27,27 @@ ant.delete(file:  "${basedir}/grails-app/views/theme.gsp")
 // URL Mapping for Theme Example/Docs
 //
 ant.delete(file:  "${basedir}/grails-app/conf/ThemeUrlMappings.groovy")
-
+//
+// CSS
+//
+ant.delete(file:  "${basedir}/web-app/css/baseclass/1200.css")
+ant.delete(file:  "${basedir}/web-app/css/baseclass/1200.min.css")
+ant.delete(file:  "${basedir}/web-app/css/baseclass/1560.css")
+ant.delete(file:  "${basedir}/web-app/css/baseclass/1560.min.css")
+ant.delete(file:  "${basedir}/web-app/css/baseclass/1920.css")
+ant.delete(file:  "${basedir}/web-app/css/baseclass/1920.min.css")
+ant.delete(file:  "${basedir}/web-app/css/baseclass/2520.css")
+ant.delete(file:  "${basedir}/web-app/css/baseclass/2520.min.css")
+ant.delete(file:  "${basedir}/web-app/css/baseclass/720.css")
+ant.delete(file:  "${basedir}/web-app/css/baseclass/720.min.css")
+ant.delete(file:  "${basedir}/web-app/css/baseclass/960.css")
+ant.delete(file:  "${basedir}/web-app/css/baseclass/960.min.css")
+ant.delete(file:  "${basedir}/web-app/css/baseclass/color.css")
+ant.delete(file:  "${basedir}/web-app/css/baseclass/errors.css")
+ant.delete(file:  "${basedir}/web-app/css/baseclass/main.css")
+ant.delete(file:  "${basedir}/web-app/css/baseclass/main.min.css")
+ant.delete(file:  "${basedir}/web-app/css/baseclass/mobile.css")
+ant.delete(file:  "${basedir}/web-app/css/baseclass/mobile.min.css")
+ant.delete(file:  "${basedir}/web-app/css/baseclass/reset.css")
+ant.delete(file:  "${basedir}/web-app/css/baseclass/typography.css")
+ant.rmdir(dir: "${basedir}/web-app/css/baseclass/")

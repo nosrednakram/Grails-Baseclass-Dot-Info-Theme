@@ -1,4 +1,4 @@
-<plugin name='baseclass-dot-info-theme' version='0.4' grailsVersion='2.0 &gt; *'>
+<plugin name='baseclass-dot-info-theme' version='0.5.2' grailsVersion='2.0 &gt; *'>
   <author>Mark Anderson</author>
   <authorEmail>nosrednakram@gmail.com</authorEmail>
   <title>Baseclass Dot Info Theme Plugin</title>
