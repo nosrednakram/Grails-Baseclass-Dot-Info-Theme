@@ -1,5 +1,5 @@
 <title>Banner Web</title>
-<meta name="layout" content="root" />
+<meta name="layout" content="baseclass" />
 
 <content tag="breadcrumbs">
 <a class="home" href=".">Home</a>
